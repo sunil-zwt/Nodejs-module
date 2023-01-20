@@ -4,7 +4,8 @@
   "description": "",
   "main": "1-names.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/Sunil-zealousWeb/Nodejs-module#readme",
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
